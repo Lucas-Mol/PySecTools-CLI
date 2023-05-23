@@ -51,7 +51,7 @@ And use:
 pyinstaller  pysectools.py
 ```
 
-It'll convert this project in a executable. Therefore, you can add this new executable as a environment variable on PATH and use it at any place on your terminal 😀
+It'll convert this project to an executable. Therefore, you can add this new executable as a environment variable on PATH and use it at any place on your terminal 😀
 
 ## Tech Stack
 
