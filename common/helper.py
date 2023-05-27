@@ -6,13 +6,15 @@ def run(args):
     print(" -------------------------------------------------------- ")
     print("- PySecTools commands: ")
     print("")
-    print("-hbg: HTTP Banner Grabber    Description: Tool to discover the Server OS used by site")
+    print("-hbg: HTTP Banner Grabber        Description: Tool to discover the Server OS used by site")
     print("")
-    print("-tps: TCP Port Scanner       Description: Tool to discover the Open ports on Ip target")
+    print("-tps: TCP Port Scanner           Description: Tool to discover the Open ports on Ip target")
     print("")
-    print("-ss: Subdomain Scanner       Description: Tool to discover the available Subdomains based on wordlist")
+    print("-ss: Subdomain Scanner           Description: Tool to discover the available Subdomains based on wordlist")
     print("")
-    print("-ws: Web Scrapper            Description: Tool to discover and filter links by site")
+    print("-ws: Web Scrapper                Description: Tool to discover and filter links by site")
+    print("")
+    print("-shc: Security Header Checker    Description: Tool to discover a missing Security Headers on URL")
     print("")
 
     sys.exit()
@@ -63,6 +65,17 @@ def ws_helper():
     print("- Web Scrapper arguments: ")
     print("")
     print("-s: Site target.      REQUIRED!")
+    print("")
+
+    sys.exit()
+
+def shc_helper():
+    print(" -------------------------------------------------------- ")
+    print(" ----------------------- Help --------------------------- ")
+    print(" -------------------------------------------------------- ")
+    print("- Security Header Checker: ")
+    print("")
+    print("-url: URL target.      REQUIRED!")
     print("")
 
     sys.exit()
