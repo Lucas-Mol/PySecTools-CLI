@@ -17,18 +17,12 @@ Libs used:
 - Requests
 - DNS Python
 - BeautifulSoup4
+- Manuf
+- Scapy
 
 So, if you don't have them installed yet, just run: 
    ```
-   pip install requests
-   ```
-   and 
-   ```
-   pip install beautifulsoup4
-   ```
-   and 
-   ```
-   pip install dnspython
+   pip install requests beautifulsoup4 dnspython manuf scapy
    ```
 
 PySecTools have a complete helper for any command, just use `-h`
@@ -56,7 +50,8 @@ It'll convert this project to an executable. Therefore, you can add this new exe
 ## Tech Stack
 
 - Python
-- Requests
 - DNS Python
 - BeautifulSoup4
+- Manuf
+- Scapy
 - Basic knowledges on: Cybersecurity, Networks, CLI concepts e OOP essentials
