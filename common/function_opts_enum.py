@@ -1,4 +1,4 @@
-from services import http_banner_grabber_service, subdomain_scanner_service, tcp_port_scanner_service, web_scrapper_service, security_header_checker_service
+from services import http_banner_grabber_service, subdomain_scanner_service, tcp_port_scanner_service, web_scrapper_service, security_header_checker_service, local_network_scanner_service
 from common import helper
 from enum import Enum
 
@@ -8,7 +8,8 @@ class FunctionOptions(Enum):
     SUBDOMAIN_SCANNER =         (3, '-ss',  subdomain_scanner_service)
     WEB_SCRAPPER =              (4, '-ws',  web_scrapper_service)
     SECURITY_HEADER_CHECKER =   (5, '-shc', security_header_checker_service)
-    HELPER =                    (6, '-h', helper)
+    LOCAL_NETWORK_SCANNER =     (6, '-lns', local_network_scanner_service)
+    HELPER =                    (7, '-h', helper)
 
     def __init__(self, number, command, _class):
         self.number = number

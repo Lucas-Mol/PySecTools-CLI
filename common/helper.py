@@ -16,6 +16,8 @@ def run(args):
     print("")
     print("-shc: Security Header Checker    Description: Tool to discover a missing Security Headers on URL")
     print("")
+    print("-lns: Local Network Scanner      Description: Tool to discover devices in your LAN")
+    print("")
 
     sys.exit()
 
@@ -76,6 +78,19 @@ def shc_helper():
     print("- Security Header Checker: ")
     print("")
     print("-url: URL target.      REQUIRED!")
+    print("")
+
+    sys.exit()
+
+def lns_helper():
+    print(" -------------------------------------------------------- ")
+    print(" ----------------------- Help --------------------------- ")
+    print(" -------------------------------------------------------- ")
+    print("- Local Network Scanner arguments: ")
+    print("")
+    print("-ir: IP range.           REQUIRED!")
+    print("")
+    print("-int: Network Interface. REQUIRED!")
     print("")
 
     sys.exit()
