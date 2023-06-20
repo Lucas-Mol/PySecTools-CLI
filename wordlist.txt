@@ -1,6 +1,11 @@
+ss template:
 gmail
 www
 api
 smtp
 mail
 accounts
+
+wfd template:
+index.php
+images
