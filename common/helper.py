@@ -18,6 +18,8 @@ def run(args):
     print("")
     print("-lns: Local Network Scanner      Description: Tool to discover devices in your LAN")
     print("")
+    print("-wfd: Web File Discovery         Description: Tool to discover files and folders in domain target based on wordlist")
+    print("")
 
     sys.exit()
 
@@ -91,6 +93,19 @@ def lns_helper():
     print("-ir: IP range.           REQUIRED!")
     print("")
     print("-int: Network Interface. REQUIRED!")
+    print("")
+
+    sys.exit()
+
+def wfd_helper():
+    print(" -------------------------------------------------------- ")
+    print(" ----------------------- Help --------------------------- ")
+    print(" -------------------------------------------------------- ")
+    print("- Web File Discovery arguments: ")
+    print("")
+    print("-d: Domain target.       REQUIRED!")
+    print("")
+    print("-w: Wordlist path.      REQUIRED!")
     print("")
 
     sys.exit()
