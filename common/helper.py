@@ -20,6 +20,8 @@ def run(args):
     print("")
     print("-wfd: Web File Discovery         Description: Tool to discover files and folders in domain target based on wordlist")
     print("")
+    print("-md5c: MD5 Cracker               Description: Tool to crack a target md5 hash based on wordlist")
+    print("")
 
     sys.exit()
 
@@ -106,6 +108,19 @@ def wfd_helper():
     print("-d: Domain target.       REQUIRED!")
     print("")
     print("-w: Wordlist path.      REQUIRED!")
+    print("")
+
+    sys.exit()
+
+def md5c_helper():
+    print(" -------------------------------------------------------- ")
+    print(" ----------------------- Help --------------------------- ")
+    print(" -------------------------------------------------------- ")
+    print("- MD5 Cracker arguments: ")
+    print("")
+    print("-w: Wordlist path.       REQUIRED!")
+    print("")
+    print("-t: Target hash.         REQUIRED!")
     print("")
 
     sys.exit()
