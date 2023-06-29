@@ -22,6 +22,7 @@ def run(args):
             hash_guess = get_md5_hash(password)
             if hash_guess == md5c.taget:
                 found_password = password
+                break
 
     print('---------------------------------------------')
     print('------------- Cracker Complete --------------')
