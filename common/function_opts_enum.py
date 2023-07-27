@@ -1,17 +1,18 @@
-from services import http_banner_grabber_service, subdomain_scanner_service, tcp_port_scanner_service, web_scrapper_service, security_header_checker_service, local_network_scanner_service, web_file_discovery_service, md5_cracker_service
+from services import http_banner_grabber_service, subdomain_scanner_service, tcp_port_scanner_service, web_scrapper_service, security_header_checker_service, local_network_scanner_service, web_file_discovery_service, md5_cracker_service, ftp_login_brute_force_service
 from common import helper
 from enum import Enum
 
 class FunctionOptions(Enum):
-    HTTP_BANNER_GRABBER =       (1, '-hbg', http_banner_grabber_service)
-    TCP_PORT_SCANNER =          (2, '-tps', tcp_port_scanner_service)
-    SUBDOMAIN_SCANNER =         (3, '-ss',  subdomain_scanner_service)
-    WEB_SCRAPPER =              (4, '-ws',  web_scrapper_service)
-    SECURITY_HEADER_CHECKER =   (5, '-shc', security_header_checker_service)
-    LOCAL_NETWORK_SCANNER =     (6, '-lns', local_network_scanner_service)
-    WEB_FILE_DISCOVERY =        (7, '-wfd', web_file_discovery_service)
-    MD5_CRACKER =               (8, '-md5c', md5_cracker_service)
-    HELPER =                    (9, '-h', helper)
+    HTTP_BANNER_GRABBER =           (1, '-hbg', http_banner_grabber_service)
+    TCP_PORT_SCANNER =              (2, '-tps', tcp_port_scanner_service)
+    SUBDOMAIN_SCANNER =             (3, '-ss',  subdomain_scanner_service)
+    WEB_SCRAPPER =                  (4, '-ws',  web_scrapper_service)
+    SECURITY_HEADER_CHECKER =       (5, '-shc', security_header_checker_service)
+    LOCAL_NETWORK_SCANNER =         (6, '-lns', local_network_scanner_service)
+    WEB_FILE_DISCOVERY =            (7, '-wfd', web_file_discovery_service)
+    MD5_CRACKER =                   (8, '-md5c', md5_cracker_service)
+    FTP_LOGIN_BRUTE_FORCE_SERVICE = (9, '-ftplbf', ftp_login_brute_force_service)
+    HELPER =                        (10, '-h', helper)
 
     def __init__(self, number, command, _class):
         self.number = number
