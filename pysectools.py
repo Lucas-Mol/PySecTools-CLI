@@ -14,3 +14,5 @@ try:
 except ValueError as err:
     print(err.args[0])
     pass
+except KeyboardInterrupt:
+    pass
