@@ -1,4 +1,4 @@
-from services import http_banner_grabber_service, subdomain_scanner_service, tcp_port_scanner_service, web_scrapper_service, security_header_checker_service, local_network_scanner_service, web_file_discovery_service, md5_cracker_service, ftp_login_brute_force_service
+from services import http_banner_grabber_service, subdomain_scanner_service, tcp_port_scanner_service, web_scrapper_service, security_header_checker_service, local_network_scanner_service, web_file_discovery_service, md5_cracker_service, ftp_login_brute_force_service, wifi_deauth_service
 from common import helper
 from enum import Enum
 
@@ -12,7 +12,8 @@ class FunctionOptions(Enum):
     WEB_FILE_DISCOVERY =            (7, '-wfd', web_file_discovery_service)
     MD5_CRACKER =                   (8, '-md5c', md5_cracker_service)
     FTP_LOGIN_BRUTE_FORCE_SERVICE = (9, '-ftplbf', ftp_login_brute_force_service)
-    HELPER =                        (10, '-h', helper)
+    WIFI_DEAUTH =                   (10, '-wd', wifi_deauth_service)
+    HELPER =                        (11, '-h', helper)
 
     def __init__(self, number, command, _class):
         self.number = number

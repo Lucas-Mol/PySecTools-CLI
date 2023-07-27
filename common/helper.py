@@ -24,6 +24,8 @@ def run(args):
     print("")
     print("-ftplbf: FTP Login Brute Force       Description: Tool to attempt a brute force login attack on FTP server based on wordlist")
     print("")
+    print("-wd: Wifi Deauth                     Description: Tool to deauth all devices on a wifi network")
+    print("")
 
     sys.exit()
 
@@ -138,6 +140,17 @@ def ftplbf_helper():
     print("-u: Username.                REQUIRED!")
     print("")
     print("-w: Password wordlist path.  REQUIRED!")
+    print("")
+
+    sys.exit()
+
+def wd_helper():
+    print(" -------------------------------------------------------- ")
+    print(" ----------------------- Help --------------------------- ")
+    print(" -------------------------------------------------------- ")
+    print("- FTP Login Brute Force arguments: ")
+    print("")
+    print("-i: Interface.             OPTIONAL!")
     print("")
 
     sys.exit()
