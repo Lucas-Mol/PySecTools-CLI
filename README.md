@@ -1,9 +1,9 @@
 # PySecTools-CLI
-A command line interface to offer some basic CyberSecurity tools
+A command line interface to offer some basic CyberSecurity tools for educational purpose
 
 ## Intro
 
-The PySecTools-CLI is a project made to centralize some basic CyberSecurity tools on a Command Line Interface.
+The PySecTools-CLI is a project made to centralize some basic CyberSecurity tools on a Command Line Interface. It's been created for educational purpose to practice and show how some attacks work and then figure it out how to prevent them.
 
 ## Overview
 
